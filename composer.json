@@ -1,0 +1,34 @@
+{
+    "name": "rebzden/ajax-partial",
+    "description": "Reload containers without hustle :)",
+    "keywords": [
+        "rebzden",
+        "yii",
+        "yii2",
+        "yii 2",
+        "widget",
+        "form",
+        "dynamic-form",
+        "ajax"
+    ],
+    "type": "yii2-extension",
+    "license": "BSD-3",
+    "authors": [
+        {
+            "name": "Kacper Brezdeń",
+            "email": "kacperbrezden@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "^2.0"
+    },
+    "minimum-stability": "stable",
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "rebzden\\ajaxpartial\\": "src"
+        }
+    }
+}
